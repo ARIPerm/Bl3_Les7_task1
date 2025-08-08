@@ -1,4 +1,5 @@
 #pragma once
+#include <stdexcept>
 
 class BasLengthException : public std::exception
 {

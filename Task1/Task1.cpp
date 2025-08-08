@@ -23,7 +23,7 @@ int main()
 			std::cin >> str;
 
 			int strLength = function(str, length);
-			std::cout << "Длина слова \"" << str << "\" равна " << strLength;
+			std::cout << "Длина слова \"" << str << "\" равна " << strLength << std::endl;
 		}
 	}
 	catch (BasLengthException& ex)
